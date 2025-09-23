@@ -1,0 +1,9 @@
+MONGO_URI=mongodb://127.0.0.1:27017
+PORT=4000
+CORS_ORIGIN=*   #all
+# CORS_ORIGIN=https:.......   only that has this url 
+
+ACCESS_TOKEN_SECRET=complexsecret
+ACCESS_TOKEN_EXPIRY=1d   #less time
+REFRESH_TOKEN_SECRET=refreshtokensecret
+REFRESH_TOKEN_EXPIRY=10d   # more time
